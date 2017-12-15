@@ -1,0 +1,13 @@
+
+<div class="container">
+    <a href="/">Home</a>
+    <h3>Dallas, TX</h3>
+    <section>
+        <h5>Humidity: {{weather.humidity | json}}</h5>
+        <h5>Temperature (Average): {{weather.temp | json}}</h5>
+        <h5>Temperature (High): {{weather.maxtemp | json}}</h5>
+        <h5>Temperature (Low): {{weather.mintemp | json}}</h5>
+        <h5>Status: {{ weather.clouds | json }}</h5>
+      </section>
+      <img src="../../assets/Dallas.jpg" alt="">
+</div>
